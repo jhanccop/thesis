@@ -1,0 +1,4702 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass report
+\begin_preamble
+
+                                                     
+\end_preamble
+\use_default_options true
+\begin_modules
+theorems-ams
+theorems-chap
+\end_modules
+\maintain_unincluded_children false
+\language spanish
+\language_package default
+\inputencoding utf8
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures false
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command makeindex
+\float_placement H
+\paperfontsize 12
+\spacing double
+\use_hyperref true
+\pdf_title "Tesis "
+\pdf_author "Joel Jafet Hancco Paccori"
+\pdf_subject "Tesis Uni"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered true
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle false
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 2
+\use_package amssymb 2
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices true
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 30mm
+\topmargin 30mm
+\rightmargin 30mm
+\bottommargin 30mm
+\secnumdepth 4
+\tocdepth 4
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{titlepage}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size larger
+UNIVERSIDAD NACIONAL DE INGENIERÍA
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size large
+FACULTAD DE INGENIERÍA DE PETROLEO,
+\begin_inset Newline newline
+\end_inset
+
+GAS NATURAL Y PETROQUÍMICA
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 0.5cm*
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Graphics
+	filename Uni-logo_transparente_granate.png
+	lyxscale 10
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 0.2cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\noindent
+\align center
+DISEÑO DE UN SISTEMA DE DIAGNÓSTICO DINAMOMÉTRICO DE BAJO 
+\begin_inset Newline newline
+\end_inset
+
+COSTO PARA POZOS CON UNIDAD DE BOMBEO MECÁNICO CON
+\begin_inset Newline newline
+\end_inset
+
+PRODUCCIÓN MARGINAL SIN SISTEMA DE MONITOREO PERMANENTE 
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 0.3cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+TESIS
+\begin_inset Newline newline
+\end_inset
+
+PARA OPTAR EL GRADO ACADÉMICO DE
+\begin_inset Newline newline
+\end_inset
+
+INGENIERO DE PETRÓLEO Y GAS NATURAL
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 0.2cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\noindent
+\align center
+ELABORADO POR:
+\begin_inset Newline newline
+\end_inset
+
+JOEL JAFET HANCCO PACCORI 
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 0.2cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+ASESOR
+\begin_inset Newline newline
+\end_inset
+
+ING.
+ CESAR ABRAHAM PURE
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 0.2cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+LIMA - PERÚ
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 0.1cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+2020
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{titlepage}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pagenumbering{roman} 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter*
+Agradecimiento
+\end_layout
+
+\begin_layout Standard
+En primer lugar agradecer a Dios, el creador y hacedor de todo lo que existe
+ en este mundo, de acuerdo a su gracia infinita ha permitido llegar hasta
+ aquí.
+\end_layout
+
+\begin_layout Standard
+A Gerarda, Luciano, David, Rina y Nicanor, mi familia, por su paciencia,
+ amor y apoyo incondicional, que sin tenerlos a mi lado, sentí en todo momento
+ su respaldo.
+\end_layout
+
+\begin_layout Standard
+A la familia de la empresa petrolera UNIPETRO ABC en especial a Fabio Canchari,
+ César Rojas y Pedro Vivas por las sugerencias y apoyo en la realización
+ del presente proyecto, amigos muy talentosos que aportaron grandemente
+ con sus ideas y experiencias.
+\end_layout
+
+\begin_layout Standard
+Y de manera muy especial a Melany Melendez por ser la principal motivacion
+ para concluir el presente trabajo.
+\end_layout
+
+\begin_layout Standard
+Mi profunda gratitud hacia todos ellos.
+\end_layout
+
+\begin_layout Chapter*
+Resumen
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{Resumen}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La extracción de petróleo en el noroeste del Perú tiene más de 110 años
+ de actividad y en general es considerado como un campo depletado, por ello
+ existe una enorme cantidad de pozos con unidad de bombeo mecánico con producció
+n por debajo de los 10 bpd [perupetro], debido a esta condición estos pozos
+ no cuentan con sistema de monitoreo en tiempo real; como si lo tienen los
+ pozos de alta producción que cuentan con equipos como 
+\emph on
+
+\begin_inset Quotes eld
+\end_inset
+
+Well Controllers
+\begin_inset Quotes erd
+\end_inset
+
+
+\emph default
+ de 
+\emph on
+Lufking Automations
+\emph default
+ en algunos lotes, sin embargo estos pozos con baja producción eventualmente
+ son diagnosticados mediante las 
+\begin_inset Quotes eld
+\end_inset
+
+mediciones físicas
+\begin_inset Quotes erd
+\end_inset
+
+ con el 
+\emph on
+
+\begin_inset Quotes eld
+\end_inset
+
+Well Analyzer
+\begin_inset Quotes erd
+\end_inset
+
+
+\emph default
+ de 
+\emph on
+Echometer
+\emph default
+ 
+\emph on
+Company
+\emph default
+; pero son estos pozos los que necesitan una optimización de la producción
+ mas exigente; los métodos implementados para evaluar el desempeño del sistema
+ de bombeo mecánico se basan en el desarrollo del dinamómetro realizado
+ por Gilbert
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Gilbert, W.E., "An Oil Well Pumping Dynagraph," API Drilling and Production
+ Practice, 1936, pp.
+ 94-115
+\end_layout
+
+\end_inset
+
+ y Fagg
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Fagg, l.
+ W., "Dynamometer Charts and Well Weighing," Petroleum Transactions, AIME,
+ Vol.
+ 189, 1950, pp.
+ 165-174.
+\end_layout
+
+\end_inset
+
+, que consiste en el gráfico de la carga en la barra pulida en función de
+ la pocisión que representa el trabajo hecho por la unidad de bombeo mecánico
+ para cada carrera de la bomba.
+\end_layout
+
+\begin_layout Standard
+Actualmente es comun encontrar algoritmos y dispositivos que permiten identifica
+r la actividad fisica de las personas, como sentarse, pararase, caminar,
+ correr, etc mediante el análisis del movimiento usando acelerometros y
+ giroscopios de los equipos móviles; en esta investigación se usa estas
+ técnicas para analizar el movimiento de las unidades de bombeo mecánico
+ para identificar las diferentes condiciones de operación de las UBM, permiteind
+o identificar estados de operación como golpe de fluido, llenado completo
+ de bomba y rompimiento de varillas, para este objetivo se diseño un sistema
+ adquición de datos de bajo costo basado en microcontroladores y accelerometros,
+ se entrenó una red neuronal que se implemento en un microcontrolador el
+ cual se instaló en pozos con unidad de bombeo mecánico para su validación.
+\end_layout
+
+\begin_layout Standard
+Este trabajo tiene por objetivo el diseño de un sistema basado en el dinamométro
+ Gilbert y Fagg para la determinación de cartas de superficie y fondo para
+ pozos con unidad de bombeo mecánico, usando un acelerómetro para la determinaci
+ón de la posición y una combinación de galgas extensiométricas para correlaciona
+r la deformación de la barra pulida producida por la carga a la que esta
+ esta sometida, asi tambien la implementación del algoritmo en un sistema
+ embebido
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Definición de sistema embebido
+\end_layout
+
+\end_inset
+
+ - IoT para su análisis monitoreo remoto.
+\end_layout
+
+\begin_layout Standard
+Para ello se realizó una revisión bibliográfica de los principios de la
+ implementación de los dinamómetros asi como de los sensores comerciales,
+ posteriormente se implemento el prototipo estandarizandolo en los laboratorios
+ de la Facultad de Mecánica de la Universidad Nacional de Ingeniería finalmente
+ se realizó pruebas en el lote X y el lote IX con el apoyo de las empresas
+ CNPC y Unipetro ABC, esta prueba se replicó con el Well Analizer a las
+ mismas condiciones logrando con exito replicar las cartas dinamométricas.
+\end_layout
+
+\begin_layout Chapter*
+Abstract
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{Abstract}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The traditional method of working with Slick Line is to introduce a register
+ tool (Memory Gauge) with thin wire nonconductive, which records and stores
+ data of pressure and temperature memory banks, after the end of the test
+ the recorder is removed from the bottom of well.
+ Once the information is downloaded surface using software provided by the
+ manufacturer.
+ While the test track surface is placing pressure gauges in the head (pipe
+ and casing), to get an idea of ​​the pressure behavior during the test
+ is conducted it develops.
+\end_layout
+
+\begin_layout Standard
+In this research develops design a device that overcomes this obstacle by
+ sending data from downhole wirelessly using the installation of subsurface
+ circular waveguide, this will allow monitoring and integration of data
+ in real time to your once generate a back surface in case of any unforeseen
+ as "fish" jam tool for background and / or cable breakage.
+\end_layout
+
+\begin_layout Standard
+Data integration subsurface and surface can be used to modify the times
+ of closing and / or opening thus allowing optimize the times outlined in
+ test wells as DrawnDown, Build Up, injectivity, dynamic and static Gradients
+\end_layout
+
+\begin_layout Standard
+For the design of the prototype sensors and controllers used as free use:
+   Raspberry pi, Atmel, Arduino, PARA EL MXBee and programming software
+ such as LabView, Python, Arduino IDE, XCTU, QT4 and Raspbian wheezy.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage clearpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage clearpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FloatList figure
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage clearpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FloatList table
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage clearpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter*
+Introducción
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{Introducción}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pagenumbering{arabic} 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+El bombeo mecánico es el método de levantamiento artificial más comúnmente
+ usado en la producción de petróleo.
+ Más de las dos terceras partes de los pozos productores en el mundo son
+ explotados con este mecanismo.
+\end_layout
+
+\begin_layout Standard
+El bombeo mecánico, al igual que los demás sistemas artificiales de producción,
+ presenta ventajas y desventajas.
+ Ente las ventajas, se considera que son versátiles, de fácil diseño, intercambi
+able con otros pozos, entre otros.
+ Pero el hecho de que sea el sistema más antiguo y popular no significa
+ que sea el más sencillo y eficiente.
+ Al contrario, su relativa complejidad mecánica hace obligatoria una supervisión
+ permanente a su operación.
+ El uso ineficiente de la energía es uno de los problemas operacionales
+ más comunes que tienen los sistemas de levantamiento artificial por bombeo
+ mecánico.
+ Una operación ineficiente del sistema de bombeo trae consigo un incremento
+ de las fallas de la tubería, bomba y varillas, lo cual deja como secuela
+ un aumento en los costos de mantenimiento, siendo necesario establecer
+ una acción preventiva, rápida y efectiva de identificación de las causas
+ que originan las fallas y la implementación de los métodos adecuados para
+ controlarlas ó minimizarlas.
+ Debido a los altos costos de mantenimiento, se requiere mantener todos
+ los sistemas de bombeo a su máxima eficiencia y con tiempo prolongados
+ entre fallas.
+ Los análisis de los sistemas de bombeo dependen de las mediciones de carga,
+ posición, y aceleración de la barra pulida, potencia del motor, presiones
+ en el revestimiento, y el nivel de fluido en el anular.
+ Estas medidas son usadas para caracterizar la operación de los elementos
+ del sistema de bombeo con el uso de modelos teóricos que describen la dinámica
+ de los fluidos y el conjunto mecánico.
+\end_layout
+
+\begin_layout Standard
+Todavía existe poco entendimiento del comportamiento de la bomba bajo las
+ condiciones singulares del pozo, particularmente la relación entre la presión
+ del fluido que pasa a través de la bomba y las fuerzas desarrolladas tanto
+ en el subsuelo como en la superficie.
+ El objetivo del presente trabajo es contribuir al estado del arte de los
+ sistemas de levantamiento artificial por bombeo mecánico, como una herramienta
+ para la toma de decisiones que permitan al aumento de la producción, la
+ disminución de los costos de mantenimiento y el uso racional y eficiente
+ de la energía en campo colorado.
+\end_layout
+
+\begin_layout Standard
+Este trabajo esta estructurado en cuatro capítulos, en el primer capítulo
+ se mencionan los concetos previos para la ejecución del diseño del tranductor
+ di
+\end_layout
+
+\begin_layout Standard
+La información en el momento oportuno se vuelve invaluable, es por ello
+ que se observa el avance acelerado de nuevas tecnologías en telemetría.
+ La filosofía 
+\emph on
+Open-Source
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+El hardware libre (también llamado “open-source” o “de fuente abierta”)
+ comparte muchos de los principios y metodologías del software libre.
+ En particular, el hardware libre permite que la gente pueda estudiarlo
+ para entender su funcionamiento, modificarlo, reutilizarlo, mejorarlo y
+ compartir dichos cambios
+\begin_inset CommandInset citation
+LatexCommand cite
+key "bib:ArduinoCurso"
+literal "true"
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+ 
+\emph default
+pone al alcance de desarrolladores tecnologías que años atrás eran imposibles
+ de adquirir en algunos países como lo es en nuestro querido Perú.
+\end_layout
+
+\begin_layout Standard
+Actualmente existen alternativas de registradores de información como lo
+ son los 
+\emph on
+Memory Gauge
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+
+\emph on
+Memory Gauge: 
+\size normal
+\emph default
+Registrador electrónico de presión y temperatura.
+\end_layout
+
+\end_inset
+
+
+\emph default
+ fabricados por Compañías como Kuster, PPS, Spartek, etc, estas ofrecen
+ alternativas de sistemas de transmisión en tiempo real, para lo cual necesitan
+ una unidad dotada con cable electromecánico, realizando la transmisión
+ vía hilo conductor, esta modalidad de registro en tiempo real requiere
+ de una logística mas robusta lo cual eleva el costo de la prueba y no lo
+ hace competitiva frente a la alternativa del registro tradicional.
+\end_layout
+
+\begin_layout Standard
+La alternativa de registro tradicional es la mas utilizada debido la simpleza
+ de su operación y su reducida logística, consiste en la introducción de
+ un registrador electrónico al pozo mediante un cable no conductor de 0.092
+ mm o 0.108 mm utilizando 
+\emph on
+Slick Line.
+
+\emph default
+ Durante el registro no se cuenta con datos en tiempo real, sino que van
+ siendo almacenado en memorias que luego de finalizado la prueba son descargados
+ mediante un interfaz para PC.
+ Si bien este método es práctico y barato existen ocasiones donde es necesario
+ conocer la información de sub suelo para tomar decisiones de la manera
+ mas acertada posible.
+\end_layout
+
+\begin_layout Standard
+Por lo tanto tanto la presente investigación describe el diseño de un prototipo
+ basado en la transmisión de datos vía ondas electromagnéticas desde el
+ fondo del pozo hasta a través de la instalación del pozo, tubería y/o Casing.
+ En el capítulo 1 se establece el planteamiento del problema que se presenta
+ en los métodos de registro existentes en el mercado y la planificación
+ de tiempos de la prueba de pozos, se identifican los objetivos generales
+ y específicos a alcanzar con el desarrollo de la presente investigación,
+ establece hipótesis que serán comprobación mediante la experimentación,
+ esto permitirá establecer condiciones para la implementación del prototipo
+ desarrollado así mismo el grado de optimización de los tiempos de prueba
+ de pozos tanto para las empresas operadoras como para las contratistas.
+\end_layout
+
+\begin_layout Standard
+El capitulo 2 desarrolla el marco teórico de la investigación en la que,
+ después de la revisión bibliográfica en cuanto a pruebas de pozos, propagación
+ de ondas electromagnéticas y controladores comerciales.
+ se describe las definiciones principales, en este capitulo se describe
+ antecedentes a esta investigación como la telemetría a través del lodo
+ de perforación y la telemetria cableada se incluye también conceptos básicos
+ de pruebas de pozo y propagación de ondas en guías circulares, finalmente
+ se describe los controladores utilizados para la elaboración del prototipo.
+ 
+\end_layout
+
+\begin_layout Standard
+El capitulo 3 describe la construcción del prototipo, calibración de sensores
+ y el resultado de las pruebas de transmisión realizadas evaluando la mayor
+ cantidad de variables posibles como diámetro de conductor, fluidos contenidos
+ en el conductor y arreglo de herramientas.
+\end_layout
+
+\begin_layout Standard
+Los capítulos 4 y 5 indican las principales conclusiones luego de las pruebas
+ de transmisión realizada así como recomendaciones para llevar con éxito
+ la implementación de estos sistemas de transmisión.
+\end_layout
+
+\begin_layout Chapter
+PLANTEAMIENTO DEL PROBLEMA
+\end_layout
+
+\begin_layout Section
+Situación problemática
+\end_layout
+
+\begin_layout Standard
+Actualmente en el nor oeste del Perú el monitoreo del desempeño de pozos
+ con unidad de bombeo mecánico se realiza de dos maneras de acuerdo a la
+ condición del pozo y a la empresa operadora:
+\end_layout
+
+\begin_layout Itemize
+Pozos con alta producción: mediante 
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+Well Controller
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+ de 
+\emph on
+Lufkin Automation
+\emph default
+, que cuenta con un sistema de monitoreo en tiempo real, este sistema solo
+ se tiene implementado algunos pozos de unos cuantos lotes en el nor oeste
+ del Perú.
+\end_layout
+
+\begin_layout Itemize
+Pozos de baja producción: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Pruebas manométricas, registrado dirariamente por el operador de producción
+ y en la mayoria de lotes con UBM.
+\end_layout
+
+\begin_layout Itemize
+Mediciones físicas: 
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+Well Analyzer
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+ de
+\emph on
+ Echometer Company
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+TWM: Explicación del sistema
+\end_layout
+
+\end_inset
+
+
+\emph default
+, se realiza de forma esporádica, una o dos veces por mes en el mejor de
+ los casos, registrando en promedio 5 a 10 minutos el trabajo de la unidad.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+La diferencia en la implementación de un sistema u otro es principalmente
+ el costo de instalación y mantenimiento, si bien es cierto que las mediciones
+ físicas son una excelente alternativa para el monitoreo de cualquier unidad
+ de bombeo mecánico el principal inconveniente que tiene es que no estan
+ diseñados para el monitoreo permanente.
+\end_layout
+
+\begin_layout Standard
+Dentro de las condiciones de operacion de las UBM existen situaciones que
+ si no son atendidas con la devida atención pueden originar el paro de la
+ producción del pozo y requeririr pulling para la rehabilitación, una de
+ 20estas condiciones indeseadas es la operación con golpe de fluido, causado
+ por el llenado imcompleto de la bomba, por periodos prolongados que causan
+ el desgaste de prensa estopas en el cabezal y la pesca de varillas o rotura
+ de tuberia causados por fricción del metal al no encontrar fluido que actué
+ como lubricante, este problema para un pozo depletado y con producción
+ reducida podria representar un gasto con retorno de inversión bastante
+ largo.
+ 
+\end_layout
+
+\begin_layout Section
+Formulación del problema 
+\end_layout
+
+\begin_layout Standard
+Estableciendo la necesidad de superar las limitaciones del monitoreo continuo
+ de las unidades de bombeo sin que esto signifique un incremento significativo
+ en los costos de instalación y mantenimiento, la formulación del problema
+ se concreta en encontrar las respuestas a las siguientes interrogantes.
+\end_layout
+
+\begin_layout Itemize
+Tomando en cuanta criterios de confiabilidad y bajo costo ¿Es posible determinar
+ la condición de operación
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Las condiciones de operación a identificar son: Llenado completo de bomba,
+ golpe de fluido y rotura de varillas.
+\end_layout
+
+\end_inset
+
+ de una unidad de bombeo mecánico mediante el analisis del movimiento usando
+ redes neuronales artificales?.
+ y si es posible ¿Cuál es el valor de confiabilidad del sistema diseñado?
+\end_layout
+
+\begin_layout Standard
+Por lo tanto, para encontrar las respuestas a estas interrogantes, esta
+ investigación debera proponer la arquitectura de red neuronal que permita
+ el reconocimiento de las condiciones de operación de las UBM.
+\end_layout
+
+\begin_layout Section
+Justificación de la investigación
+\end_layout
+
+\begin_layout Standard
+Una de las condiciones de operación mas perjudiciales en una UBM es el trabajo
+ en seco, operar de manera contínua en esta condición tiene consecuencias
+ no deseadas como el desgate prematuro de las prensa estopas en el cabezal,
+ fricción de varillas en pozos con ligera inclinación y consumo en vano
+ de energia, en casos mas severos estos pozos necesitaran un mantenimmiento
+ correctivo mediante el pulling y sea por cambio de varillas, cambio de
+ bomba, etc.
+\end_layout
+
+\begin_layout Standard
+En campos depletados donde la producción por pozo son de pocos barriles
+ al dia la implementación de sistemas de monitoreo en tiempo real que prevengan
+ los fallos por condiciones de operación no deseadas como los mencionados
+ anteriormente resulta inviable económicamente por el elevado costo de los
+ sistemas comerciales.
+\end_layout
+
+\begin_layout Standard
+La implementación de este proyecto permitirá realizar el monitoreo de bajo
+ costo y confiable de las condiciones de operación de las UBM permitiendo
+ superar las dificultades descritas anteriormente.
+\end_layout
+
+\begin_layout Section
+Objetivos
+\end_layout
+
+\begin_layout Subsection
+Objetivos Generales
+\end_layout
+
+\begin_layout Itemize
+Identificar la condiciones de operación: LLenado completo de bomba, golpe
+ de fluido y rotura de varillas en unidades de bombeo mecánico mediante
+ el análisis de la aceleración y posición utilizando redes neuronales artificial
+es.
+\end_layout
+
+\begin_layout Subsection
+Objetivos Específicos
+\end_layout
+
+\begin_layout Itemize
+Diseñar una arquitectura de red neuronal artificial para la clasificación
+ de las condciones de opercion de las UMB.
+ 
+\end_layout
+
+\begin_layout Itemize
+Implementar un sistema de registro de posición y aceleración para UBM.
+ 
+\end_layout
+
+\begin_layout Subsection
+Importancia[]
+\end_layout
+
+\begin_layout Standard
+El desarrollo de esta investigación permitirá la implementación de unidades
+ de monitoreo de bajo costo teniendo como producto más útil los datos que
+ mediante un debido procesamiento serán transformardos en información, logrando
+ de esta manera una optimización tanto en la producción diaria y como en
+ la acumulada a lo largo de la vida productiva de pozos con unidad de mombeo
+ mecánico.
+\end_layout
+
+\begin_layout Subsection
+Limitaciones de la investigación
+\end_layout
+
+\begin_layout Standard
+Debido a los compromisos de confidencialidad de la empresas operadoras y
+ a la complejidad de las pruebas es complicado contar con información voluminosa
+ para el análisis y entrenamiento de condiciones de operación no tan frecuentes
+ como: desgaste de válvula vajera o piston, bajo recorrido de pistón, ancla
+ libre, interferencia de gas, golpe de bomba, etc esta limitación puede
+ ser superado con la adquisición de data apropiada.
+\end_layout
+
+\begin_layout Subsection
+Alcance
+\end_layout
+
+\begin_layout Standard
+La presente investigación abarca el análisis de producción que cuentan con
+ unidades de bombeo mecánico, que no cuenten con ruido causado por la fricción
+ y solo para tres condiciones de operación: llenado completo de bomba, golpe
+ de fluido y pesca de varillas de bombeo.
+\end_layout
+
+\begin_layout Standard
+Debido a la practicidad en la implementación y al alto costo de la maquinación
+ de sesnores de carga esta investigación solo considerará el analisis de
+ la aceleración y la posición mediante sensores inerciales comerciales.
+\end_layout
+
+\begin_layout Chapter
+MARCO TEÓRICO
+\end_layout
+
+\begin_layout Section
+Antecedetes de la Investigación
+\end_layout
+
+\begin_layout Section
+Bases teóricas
+\end_layout
+
+\begin_layout Section
+Bombeo mecánico
+\end_layout
+
+\begin_layout Standard
+Una unidad de bombeo mecánico suministra la energía necesaria para levantar
+ la columna de petróleo desde la entrada de la bomba en el subsuelo hasta
+ la superficie, es decir transforma el movimiento mecánico en energía potencial
+ contenida en la presión que se ejerce sobre el fluído, dentro de la bomba
+ de subsuelo el fluído ingresa con una presión de entrada y mediante la
+ acción de la UBM esta es incrementada hasta una presión de descarga con
+ la que sale de la bomba, la diferencia entre la presión de descarga y la
+ de entrada se conoce como la presión de bomba que es la energia potencial
+ que se tranfiere al fluído, esta energia forma parte del trabajo total
+ realizado por la unidad de bombeo mecánico y la eficiencia en la producción
+ depende básicamente del cuánto de de la energía mecánica es transformada
+ en energía potencial (presión); Esta eficiencia puede optimizarse realizando
+ un diagnóstico contínuo y detallado.
+\end_layout
+
+\begin_layout Standard
+El bombeo mecánico es considerado un sistema de levantamiento artificial
+ simple, eficiente, facil de operar, aplicable a una variedad de fluídos
+ es por ello que es sistema de mayor uso en todo el mundo; pero tiene dificultad
+es en pozos con sólidos en suspensión, pozos con elevado GOR
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+GOR: Se refiere a la relación gas - liquido del fluído.
+\end_layout
+
+\end_inset
+
+ y no es recomendado para pozos profundos.
+\end_layout
+
+\begin_layout Standard
+El funcionamiento de una unidad de bombeo mecánico puede describirse de
+ la siguiente manera: La energía para el movimiento de sistema se proporcionado
+ por un motor electrico o uno de combustión, esta energia es transmitida
+ mediante una faja a la caja reductora que reduce la velocidad e incrementa
+ el torque, las RPM pueden ir desde 4 - 40 y dependerá de las caracterisiticas
+ del pozo y las propiedades del fluído.
+ El movimiento circular de la viela se transforma en movimiento oscilatorio
+ mediante el balancín, y en la cabeza de este se encuentra sujeta las 
+\begin_inset Quotes eld
+\end_inset
+
+reindas
+\begin_inset Quotes erd
+\end_inset
+
+que se sujetan al varillón o barra pulida, en el cabezal del pozo se encuentra
+ la prensa estopa que manteine hermética el cabezal.
+\end_layout
+
+\begin_layout Subsection
+Equipos de superficie
+\end_layout
+
+\begin_layout Standard
+Todo sistema de bombeo mecánico necesita una fuerza motriz tipicamente puede
+ ser un motor eléctrico o un motor a gas, tiene como función la de proporcionar
+ la energía mecánica necesaria para el sistema de bombeo, se dimensionada
+ en unidades de hp y esta depende de la profundidad, propiedades y nivel
+ de fluído, las revoluciones por minúto y el balanceo de la unidad.
+\end_layout
+
+\begin_layout Standard
+En el dimensionamiento generalmente son sobreestimados garantizando la disponibi
+lidad de potencia para el sistema, esto en el balance general disminuye
+ la eficiencia en la realción coste - producción.
+\end_layout
+
+\begin_layout Standard
+Durante la carrera ascendente se genera las mayores cargas sobre la la barra
+ pulida debido a esto el motor desacelera generando mayor torque en la caja
+ reductora pero es compensada por los contrapesos, esta compensación tambien
+ tiene un efecto en la carga soportada por la barra pulida evitando las
+ cargas picos causadas por una aceleración de mayor magnitud.
+ En la carrera descendente el efecto de los contrapesos genera una compensación
+ en el incremento de la velocidad lo que origina una disminucuón en la tensión
+ soportada por la zarta de varillas que tiene un efecto de disminución de
+ la fatiga mecánica de estas.
+\end_layout
+
+\begin_layout Standard
+La unidad de bombeo mecánico transforma el movimiento rotacional de la unidad
+ motriz en un movimiento reciprocante lineal mediante la acción conjunta
+ de la manivela y el balancín, las UBM constan de un balancín el cual tiene
+ una cabeza de mula en el extremo libre, al otro extremo un cojinete e igualador
+ el cual cuenta con una articulación que concta la biela y la manivela.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ubm.png
+	width 12cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Partes de una unidad de bombeo mecánico.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Fuente: Exploración y producción de petróleo: Bombeo Mecánico; Marcelo Artigas,
+ 2010, ISBN 978-987-98015-7-4.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+En el cuadro 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Denomicación-API-de-UBM"
+
+\end_inset
+
+ se enumeran la designaciones otorgadas por el American Petroleum Institute
+ (API) 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "bib:Bombeo mecanico"
+literal "true"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="8" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Unidad de bombeo
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Denomicación API
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Unidad Convencional
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+C
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Unidad Mark II
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+M
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Unidad Balanceada por Aire
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Unidad Reverse Mark
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+RM
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Unidad Churchill Beam-Balanced
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+B
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Unidad Low Profile
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+F
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Unidad Rotaflex
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Rotaflex
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Denomicación API de UBM.
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Denomicación-API-de-UBM"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Un ejemplo de la designación sugerida por API sería:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula $C-320$
+\end_inset
+
+ 
+\begin_inset Formula $D-173-100$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+Donde:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+C:
+\series default
+ Indica el tipo del Aparato individual de bombeo (Convencional).
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+320:
+\series default
+ Torque máximo de la caja reductora expresado en miles de libras - pulgada.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+D:
+\series default
+ Indica el tipo de reducción de la caja (simple, doble o triple).
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+173:
+\series default
+ Carga máxima en cientos de libras.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+100:
+\series default
+ Carrera máxima expresado en pulgadas.
+\end_layout
+
+\begin_layout Standard
+La caja reductora reduce los RPM entregados por el motor mediante las fajas
+ incrementando el torque en la manivela, un factor de reducción común es
+ la de 30:1, lo que significa que reduce treinta veces los RPM entregados
+ por el motor y entrega un torque 30 veces mayor por la viela.
+\end_layout
+
+\begin_layout Subsubsection
+Contrapesos
+\end_layout
+
+\begin_layout Subsubsection
+Barra pulida
+\end_layout
+
+\begin_layout Standard
+Componente que 
+\end_layout
+
+\begin_layout Subsection
+Equipos de subsuelo
+\end_layout
+
+\begin_layout Subsubsection
+Bomba de subsuelo
+\end_layout
+
+\begin_layout Subsubsection
+Sarta de varillas
+\end_layout
+
+\begin_layout Subsubsection
+Ancla de Gas
+\end_layout
+
+\begin_layout Subsubsection
+Centralizadores
+\end_layout
+
+\begin_layout Standard
+Ubicados diferentes profundidades tiene como función impedir el roce de
+ las varilla con la tubería de producción evitando el desgaste por rozamiento.
+\end_layout
+
+\begin_layout Section
+Métodos de monitoreo del desempeño de sistema de bombeo mecánico.
+\end_layout
+
+\begin_layout Subsection
+Pruebas manométricas
+\end_layout
+
+\begin_layout Standard
+Desarrolladas por el personal de campo (recorredores), consiste en la medición
+ de la presión en la válvula spitch durante algunos minutos cerrando temporalmen
+te la válvula de producción, se obserba el incremento de presión durante
+ la carrera ascendente, no deberia haber un descenso contundente en la presión,
+ en caso lo haya significa que existe pérdida de presión en algun componente
+ del sistema.
+\end_layout
+
+\begin_layout Subsection
+Análisis dinamométrico
+\end_layout
+
+\begin_layout Standard
+Las bases para el análisis dinamométrico de unidades de bombeo mecánico
+ fueron desarrollados por Gilbert y Fagg en donde la carga en la barra pulida
+ se registra gráficamente en función de su posición para generar una gráfica
+ que representa el trabajo hecho en superficie por la unidad de bombeo mecánico
+ para cada carrera de la bomba
+\begin_inset CommandInset citation
+LatexCommand cite
+key "bib:Gilbert pumping dynagraph,bib:Fagg Dynamometer Charts"
+literal "true"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection
+Dinamómetro
+\end_layout
+
+\begin_layout Standard
+El dinamómetro es el instrumento capaz de registrar las cargas sobre el
+ varillón o barra pulida en función de la posición, existen dos tipos de
+ dinamómetro de acuerdo a su ubicación:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Dinamómetro de bomba
+\series default
+: Instalado en la parte superior de la bomba de subsuelo, determina con
+ exactitud las cargas levantas por el sistema sin los efectos porvocados
+ por las sarta de varillas.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Dinamómetro de barra pulida:
+\series default
+ Instalado en superficie en la barra pulida, registra las cargas del sistema
+ inculido los efectos de las varillas, la ventaja principal es la facilidad
+ de instalación.
+\end_layout
+
+\begin_layout Subsubsection
+Cartas dinamométricas
+\end_layout
+
+\begin_layout Standard
+Es el gráfico de la carga versus la posición durante un ciclo de la bomba
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Ciclo: considerado desde la posición mas baja del varillón hasta su vuelta
+ por dicha ubicación.
+ 
+\end_layout
+
+\end_inset
+
+.
+ su análisis permite el diagnóstico completo de la eficiencia del sistema
+ de bombeo mecánico como detectar problemas de la bomba de subsuelo, identificar
+ problemas de desbalance de unidad, etc.
+\end_layout
+
+\begin_layout Subsubsection
+Principales cartas dinamométricas
+\end_layout
+
+\begin_layout Paragraph*
+Carta con llenado completo de bomba
+\end_layout
+
+\begin_layout Paragraph*
+Carta con golpe de fluido
+\end_layout
+
+\begin_layout Paragraph*
+Carta con fuga en válvula fija
+\end_layout
+
+\begin_layout Paragraph*
+Cartas adicionales 
+\end_layout
+
+\begin_layout Section
+Redes neuronales artificales
+\end_layout
+
+\begin_layout Section
+Sistema de medida inercial (IMUs)
+\end_layout
+
+\begin_layout Section
+Microcontroladores
+\end_layout
+
+\begin_layout Subsection
+Sistema embebidos
+\end_layout
+
+\begin_layout Subsection
+Esp32.
+\end_layout
+
+\begin_layout Standard
+Micropython
+\end_layout
+
+\begin_layout Section
+Marco Conceptual
+\end_layout
+
+\begin_layout Subsection
+Desarrollo de la metodologia
+\end_layout
+
+\begin_layout Subsection
+Hipótesis y variables
+\end_layout
+
+\begin_layout Subsubsection
+Hipótesis general
+\end_layout
+
+\begin_layout Itemize
+El entrenamiento de una red neuronal con datos de aceleración de unidades
+ de bombeo mecanico permitira la clasisficación de las condiciones de operación
+ de la unidad de bombeo mecánico.
+\end_layout
+
+\begin_layout Itemize
+L
+\end_layout
+
+\begin_layout Subsubsection
+Identificación de variables
+\end_layout
+
+\begin_layout Standard
+El la técnica de construcción de cartas dinamométricas desarrollado por
+ Gilbert y Fagg correlaciona la carga levantada por la unidad de bombeo
+ mecánico y la posición del varillón respecto a su pocisión mas baja para
+ cartas dinamométricas de superficie y a partir de esta añadiendo efectos
+ de empuje, elongación, rozamiento, etc, es posible construir una carta
+ dinmométrica de fondo, ya que el objetivo es la construcción de la carta
+ dinamométrica de fondo las variables necesarias son:
+\end_layout
+
+\begin_layout Itemize
+Recorrido vertical del varillón respecto a su posición mas baja.
+\end_layout
+
+\begin_layout Itemize
+Aceleración del vástago pulido a lo largo de su trayectoria.
+\end_layout
+
+\begin_layout Itemize
+Stroke, tiempo que dura un ciclo completo de subida y bajada desde la pocisión
+ masa baja.
+\end_layout
+
+\begin_layout Subsubsection
+Medición de variables
+\end_layout
+
+\begin_layout Standard
+Para la determinación de la posición del varillón se realiza a través de
+ la medición del ángulo e inclinación mediante sensores inerciales ubicados
+ encima del eje de giro del coginte central.
+\end_layout
+
+\begin_layout Standard
+La aceleración en el eje vertical del vástago pulido se realiza mediante
+ un accelerómetro de tres ejes.
+\end_layout
+
+\begin_layout Standard
+Stroke, tiempo que dura un recorrido completo tomando como referencia el
+ punto mas majo, esto mediante un reloj dentro el microcontrolador.
+\end_layout
+
+\begin_layout Subsubsection
+Matriz de consistencia
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="36" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="left" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+DESCRIPCIÓN
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="3" alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\noun on
+título
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Identificación de condiciones de operación de una unidad de bombeo mecánico
+ 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+mediante el análisis de la aceleración usando redes neuronales artificales
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\noun on
+problema
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+En
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\noun on
+general
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+la p
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Qué limitaciones tiene el diseño de producción para la utilización como
+ 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+guiá de onda de sección circular.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\noun on
+problema
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+En qué medida los fluidos contenidos dentro del pozo atenúan o interfieren
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\noun on
+especifico
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+ la propagación de la Onda Electromagnética.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+En qué medida optimiza el uso de sistemas de telemetria inalámbrica en 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+la calidad de información y tiempos de pruebas de pozos.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Diseñar un sistema de transmisión de datos inalámbrica utilizando la
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\noun on
+objetivos
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+tubería de producción o casing de producción como guía de onda circular
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\noun on
+generales
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Optimizar los tiempos de las pruebas permitiendo alcanzar los objetivos
+ 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+planteados sin sobre estimar o sub estimar periodos de cierre del pozo.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Verificar el comportamiento de la tubería de producción y/o 
+\emph on
+casing
+\emph default
+ como
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+guía de onda circular para el estándar 802.15.4 a una frecuencia de 2.4 GHz.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Verificar la atenuación de la onda electromagnética durante la propagación
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\noun on
+objetivos
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+por los fluidos contenidos en el pozo.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\noun on
+específicos
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Diseñar un prototipo de registrador de presión y temperatura, 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+acondicionado con un transmisor RF para la transmisión de datos.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Identificar las condiciones optimas para la transmisión de datos mediante
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+la tubería y/o casing de producción.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Existe el hardware y software lo suficientemente desarrollado que permiten
+ 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\noun on
+hipótesis
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+el procesamiento in situ de los datos para determinar la carta dinamométrica
+ 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\noun on
+general
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+siguiendo el desarrollo hecho por Gilbert y Fagg 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Independientes 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\noun on
+variables
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+- Deformación de barra pulida.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\noun on
+dependientes e 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+- Aceleración de barra pulida.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\noun on
+independientes
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Dependientes
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\noun on
+de la hipótesis
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+- Pocisión:
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+- Carga.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\noun on
+como se
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+En el caso de la acelerción ls mediciones se realizaran con acerómetros
+ micromaquinados.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\noun on
+medirán las
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Para medir la deformación causado por la carga se usarán galgas extensiométricas.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\noun on
+variables
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Matriz de consistencia
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+RESULTADOS DE LA INVESTIGACIÓN
+\end_layout
+
+\begin_layout Standard
+Una carta dinamométrica es el grafico de la carga soportada por el varillon
+ respecto a la posición
+\end_layout
+
+\begin_layout Standard
+El diagnóstico del desempeño del trabajo realizado por la bomba en una unidad
+ de bombeo mecánico mediante la dinamometría consiste en el análisis de
+ la correlación entre la posición del varillon y la carga levantada por
+ la unidad; en el eje de las absisas se ubica la pocisión del varillón,
+ para ello se realizó la determinación de la pocisión a partir de la aceleración
+ registrado por el acelerómetro ADXL335, en el eje de las ordenadas se grafica
+ la carga o peso de todo el sistema de levantamiento, medir de manera directa
+ no es tan sencillo y práctico por ello usamos la relación de la deformación
+ axial del varillon con la carga.
+ Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Diagrama de bloques"
+
+\end_inset
+
+ esta información se visualizará en un lcd o PC.
+\end_layout
+
+\begin_layout Standard
+Para las pruebas en campo se implementó el esquema mostrado en la figura
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Esquema-de-instalación"
+
+\end_inset
+
+ donde los sensores y el módulo ESP32 son ubicados en el varillón y en una
+ caja de registro se ubica el LCD para la visualización de la carta.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename esquema_tesis_dyno_1.png
+	width 10cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Diagrama general de diseño.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Diagrama de bloques"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Fuente: Elaboración Propia.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename esquema_tesis_dyno.png
+	width 10cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Esquema de instalación en campo.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Esquema-de-instalación"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Fuente: Elaboración propia.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Implementación de red neuronal
+\end_layout
+
+\begin_layout Standard
+La identificación de las condiciones de operación de la UBM se realzi
+\end_layout
+
+\begin_layout Standard
+Para el entrenamiento de la red neuronal se uso registros dinamométricos
+ de 565 pozos con unidad de bombeo mecánico en diferente condición 
+\end_layout
+
+\begin_layout Standard
+Debido a que el objetivo en implementar la red entrenada en un microcontrolador
+ que será implementado en campo se ejecutara en un microcontrolador cuyas
+\end_layout
+
+\begin_layout Standard
+Para el diseño e implementación de la red neuronal
+\end_layout
+
+\begin_layout Subsection
+Descripcion del datos
+\end_layout
+
+\begin_layout Standard
+Para el entrenamiento y validación de la red neuronal se utilizó el registro
+ dinamométrico de 565 pozos con unidad de bombeo mecánico, cada registro
+ cuenta con datos de tiempo, posición, aceleración y carga de un stroke
+ etiquetados según la condición: 
+\begin_inset Quotes eld
+\end_inset
+
+Golpe de fluido
+\begin_inset Quotes erd
+\end_inset
+
+, 
+\begin_inset Quotes eld
+\end_inset
+
+llenado completo de bomba
+\begin_inset Quotes erd
+\end_inset
+
+ y 
+\begin_inset Quotes eld
+\end_inset
+
+rotura de varillas
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+De estos datos los gráficos de mayor reelevancia son el plot de desplazamiento
+ vs carga y el plot de aceleración vs tiempo, el primer gráfico es usado
+ para la verificación de la condición del pozo, mientras que los datos del
+ segundo gráfico son el input a la red neuronal el cual identificará la
+ condición del pozo.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename chart1.png
+	width 8cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Como es de esperarse el número de datos en los registros es variable debido
+ a que el sensor registra en intervalos de tiempos uniforme y el pozo de
+ acuerdo a la configuración de los SPM o estado del pozo puede demorarse
+ mas o menos tiempo en completar un stroke, esto podria representar una
+ dificultad en el momento de entrenamiento y validación ya que el los array
+ de entrada deben ser iguales para todos los registros, para esto se normalizo
+ la cantidad de datos en un registro a 300 datos, para ello se diseño un
+ algoritmo que redimensiona el array a 300 datos sin alterar el patrón de
+ la aceleración.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename norm_data1.png
+	width 7cm
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename norm_data2.png
+	width 7cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Arquitectura de la red neuronal
+\end_layout
+
+\begin_layout Standard
+Los variables
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box ovalbox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status collapsed
+
+\begin_layout Plain Layout
+Model: "sequential" ____________________________________________________________
+_____
+\end_layout
+
+\begin_layout Plain Layout
+Layer (type) Output Shape Param # ==============================================
+===================
+\end_layout
+
+\begin_layout Plain Layout
+dense (Dense) (None, 400) 120000
+\end_layout
+
+\begin_layout Plain Layout
+_________________________________________________________________
+\end_layout
+
+\begin_layout Plain Layout
+batch_normalization (BatchNo (None, 400) 1600 __________________________________
+_______________________________ dense_1 (Dense) (None, 200) 80000 ______________
+___________________________________________________ batch_normalization_1
+ (Batch (None, 200) 800 ________________________________________________________
+_________ dense_2 (Dense) (None, 100) 20100 ____________________________________
+_____________________________ dropout (Dropout) (None, 100) 0 __________________
+_______________________________________________ dense_3 (Dense) (None, 50)
+ 5000 _________________________________________________________________
+ batch_normalization_2 (Batch (None, 50) 200 ___________________________________
+______________________________ dense_4 (Dense) (None, 2) 102 ===================
+============================================== Total params: 227,802 Trainable
+ params: 226,502 Non-trainable params: 1,300 ______________________________
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Diseño de sistema de adquisición
+\end_layout
+
+\begin_layout Standard
+El sistema de aquisición de datos busca obtener de manera más fiable los
+ datos de aceleración, posición y los SPM
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Strokes por minuto.
+\end_layout
+
+\end_inset
+
+, debido a que la calidad de esta información influenciará de manera significati
+va la capacidad de clasificación de la red neuronal.
+\end_layout
+
+\begin_layout Standard
+Tanto el entrenamiento y la validación de la red neuronal se tomo como referenci
+a la unidad del stroke, es decir el ciclo completo desde la posición mas
+ baja, ascenso y descenso, por este motivo la determinación de la posición
+ del vástago pulido resulta crucial para formar la data inicial, como consecuenc
+ia de este proceso se deriba tambíen la duración del stroke, tiempo de asenso
+ y descenso que forma parte de la data para la identificación.
+\end_layout
+
+\begin_layout Standard
+La aceleración del vátago pulido es un indicador el patrón de movimiento
+ de sistema de levantamiento de fluído en una UBM, para ello se implementó
+ un acelerómetro ubicado en el vástago, este sensor registra la aceleración
+ vertical del conjunto de vastago pulido, varillas, y piston de la bomba.
+\end_layout
+
+\begin_layout Standard
+A continuación se detalla el diseño mecánico y electrónico del sistema de
+ adquisición de datos.
+ 
+\end_layout
+
+\begin_layout Subsection
+Diseño mecánico
+\end_layout
+
+\begin_layout Standard
+La determinación de la posición del vástago pulido en el cabezal de producción
+ de una UBM se da mediante la técnica del cálculo de la inclinación tomando
+ como referencia el eje del cojinete central, 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Implementación del sistema de adquisicion.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+En la figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Diagrama de bloques"
+
+\end_inset
+
+ la estructura mecánica del sistema, consta de cuatro piezas que en conjunto
+ tienen como finalidad:
+\end_layout
+
+\begin_layout Itemize
+Alojar a los componentes electrónicos
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Acelerómetro ADXL335:
+\series default
+ debe matenerse fijado firmemente a la estructura tratando de evitar pérdidas
+ por vibración dentro de la estructura, de acuerdo al eje seleccionado en
+ la medida de lo posible este eje debe estar en paralelo a la fuerze de
+ gravedad.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+MPU 6050:
+\series default
+ su ubicación dentro de la estructura del dinomómetro debe optimizar la
+ deformación axial del varillón y se debe aislar de todo contacto que implique
+ ejercer alguna fuerza sobre el elemento sensible 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Procesador
+\series default
+.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Antena de transmisión
+\series default
+.
+ Ubicado externamente para 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Concentrar la deformación axial del varillón en el elemeto sencible, toda
+ la estructura debe evitar alterar la deformación que no sea causada por
+ la deformación.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename prt.png
+	width 10cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Diseño mecánico
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+En la figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:deformación axial"
+
+\end_inset
+
+ se muestra la ubicación de la galga extensiométrica (elemento sensible)
+ en el dinamómetro, este disposición le permite sensar la deformación axial
+ del varillón causado por la elongación longitudinal del varillon que resulta
+ de la combinación entre el trabajo de la unidad de bombeo mecánico y el
+ peso de la instalación de producción
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Instalación de produción: conjunto de varillas, bomba de subsuelo y accesoriós.
+ 
+\end_layout
+
+\end_inset
+
+, para fines de calibración de debe ajusta ligeramente el varillón con el
+ perno de ajuste para dar una deformación inicial en el rango de calibración.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename prt1.png
+	width 6cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Vista superior: Determinación de la deformación axial.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:deformación axial"
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Fuente: Elaboración propia.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Diseño electrónico
+\end_layout
+
+\begin_layout Standard
+En este sección explicamos el desarrollo del dinamométrico que esta basado
+ en la de una galga extensiométrica BF350, el módulo HX711 con un ADC 24bits,
+ el acelerómetro ADXL335 de tres ejes y el módulo de desarrollo ESP32 que
+ es un integrado de bajo costo optimizado para sistemas IoT, cuenta con
+ conectividad Wifi y bluetooth a continuación detallaremos algunas característic
+as por las cuales fueron seleccionadas para esta investigación.
+\end_layout
+
+\begin_layout Subsubsection
+Acelerómetro ADXL335
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "bib:DatasheetADXL335"
+literal "true"
+
+\end_inset
+
+El ADXL335 de Analog Devices es un acelerómetro triaxial de bajo consumo
+ que mide la aceleración dinámica (movimiento, choque o vibración) y la
+ aceleración estática (inclinación o gravedad) en un rango de 
+\begin_inset Formula $\pm3$
+\end_inset
+
+ g con 
+\begin_inset Formula $0.3\%$
+\end_inset
+
+ de no linealidad y 
+\begin_inset Formula $0.01%/°C
+$
+\end_inset
+
+ de estabilidad de temperatura, dentro de sus características principales
+ tenemos:
+\end_layout
+
+\begin_layout Itemize
+Detección de 3 ejes.
+\end_layout
+
+\begin_layout Itemize
+Baja potencia: típica de 350 
+\begin_inset Formula $\mu A$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+Funcionamiento de alimentación simple: 1.8 V a 3.6 V
+\end_layout
+
+\begin_layout Itemize
+Supervivencia de choque de 10.000 g.
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Subsubsection
+ESP32 Dev C
+\end_layout
+
+\begin_layout Standard
+El ESP32 fabricado por la compañia china espressif, dentro de los caracteristica
+s más resaltantes nos ofrece:
+\end_layout
+
+\begin_layout Itemize
+Procesador: Dos núcleos CPU independientes con frecuencia de reloj ajustables
+ de 80 a 240 MHz.
+\end_layout
+
+\begin_layout Itemize
+Memoria flash programble de 4MB.
+\end_layout
+
+\begin_layout Itemize
+Conectividad: Wifi 2.4Hz y Bluetooth 4.0 de bajo consumo, salida de +19.5 dBm
+ en la antena.
+\end_layout
+
+\begin_layout Itemize
+Corriente de reposo de 
+\begin_inset Formula $5\mu A$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+Incluyen sensores táctiles capacitivos, sensor Hall, amplificadores de detección
+ de bajo ruido, interfaz de tarjeta SD, Ethernet.
+\end_layout
+
+\begin_layout Itemize
+Comunicación: SPI de alta velocidad, UART, I2S e I2C.
+\end_layout
+
+\begin_layout Itemize
+ADC: 12 bits a 3.3V
+\end_layout
+
+\begin_layout Standard
+Estas características lo elevan por encima de sus competidores.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename esp32.png
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+ESP32 DevKit
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Tomado de https://www.espressif.com/en/products/hardware/development-boards
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Section
+Desarrollo de algoritmo
+\end_layout
+
+\begin_layout Standard
+Una de la características más interesantes del módulo de desarrollo ESP32
+ es la posibilidad de usar ambos 
+\begin_inset Quotes eld
+\end_inset
+
+core
+\begin_inset Quotes erd
+\end_inset
+
+ para la implemetación de una multitarea, realizar operaciones simultáneamente,
+ lo que no es posible realizar en un microcontrolador de un núcleo, en este
+ caso, el registro de aceleración y deformación no debe ser interrumpido
+ porque implicaria la pérdida de información durante el proceso de transmisión
+ de datos, por ello por ello definimos las tareas para cada 
+\begin_inset Quotes eld
+\end_inset
+
+core
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\emph on
+Core 0
+\series default
+\emph default
+: Lectura de sensores: Aceleración y deformación.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\emph on
+Core 1
+\series default
+\emph default
+: Comunicaciones mediante wifi o bluetooth.
+\end_layout
+
+\begin_layout Standard
+Existen IDE y lenguajes de programación del modulo ESP32, podemos mencionar
+ la versión de python optimizada para microcontroladores: micropython, IDE
+ Arduino y ESP-IDF, en este desarrollo usaremos el IDE de arduino y micropython
+ cabe mencionar que se pudo realizar con cualquiera de los antes mencionados.
+\end_layout
+
+\begin_layout Standard
+Adicionalmente se desarrollará una interfaz de gráfica para la visualización
+ de datos y un algoritmo para el análisis de la carta dinamométrica, en
+ esta implementación utlizará un sistema embebido y el lenguaje de programación
+ python, el análisis consistirá en el entrenamiento de un metodo predictivo
+ para la identificación del 
+\begin_inset Quotes eld
+\end_inset
+
+golpe de bomba
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Algoritmo para la determinación de la posición de la barra pulida.
+\end_layout
+
+\begin_layout Subsubsection
+Registro de aceleraciones
+\end_layout
+
+\begin_layout Standard
+Al usar un acelerómetro del tipo analógico como es el ADXL335 con una variación
+ de voltaje que depende de la aceleración en cada uno de sus ejes es necesario
+ convertir este valor analógico en digital, el MCU trae consigo un ADC
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Analog to Digital Converter
+\end_layout
+
+\end_inset
+
+ de 12 bits a 3.3 V, es decir, se tiene 0 unidades para 0 voltios y 4095
+ unidades para 3.3 V 
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+a_{z}=a_{zmedida}-g_{z}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Donde:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $a_{z}:$
+\end_inset
+
+ Es la aceleración total del movimiento.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $a_{zmedida}:$
+\end_inset
+
+ Es la aceleración medida durante la calibración.
+\end_layout
+
+\begin_layout Subsubsection
+Determinación de la pocisión
+\end_layout
+
+\begin_layout Standard
+Teniendo en cuenta que la unica fuerza que actúa sobre el elemento sensible
+ del acelerómetro es la fuerza de gravedad, entonces los valores que obtenidos
+ del acelerómetro corresponden a la gravedad y los ángulos resultantes indicarán
+ la inclinación del plano del sensor.
+\end_layout
+
+\begin_layout Standard
+Para entenderlo mejor ubicamos el sensor en la orientación que indica la
+ figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:inclinacion"
+
+\end_inset
+
+, es decir en el plano X-Z e inclinamos un angulo 
+\begin_inset Formula $\theta$
+\end_inset
+
+ entonces dicho ángulo se determina mediante la ecuación 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:inclinacion"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename inclinación.png
+	width 10cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Determinación de la inclinación.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:inclinacion"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\theta=arctang\left(\frac{g_{x}}{g_{z}}\right)\label{eq:inclinacion}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ya en la unidad de bombeo mecánico ubicamos el acelerómetro por encima del
+ eje de rotación de la viga balancín, es decir a la altura de coginete central,
+ se ubica en esta pocisión para disminuir el ruido producido por la vibración.
+\end_layout
+
+\begin_layout Standard
+En la ecuación 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:inclinacion"
+
+\end_inset
+
+ observamos que el ángulo se obtiene a partir de la relación de las aceleracione
+s en los ejes 
+\begin_inset Quotes eld
+\end_inset
+
+X
+\begin_inset Quotes erd
+\end_inset
+
+ y 
+\begin_inset Quotes eld
+\end_inset
+
+Z
+\begin_inset Quotes erd
+\end_inset
+
+; entonces el desplazmiento vertical de la barra pulida es igual al la longitud
+ de arco tomando como referencia el punto más bajo, es decir:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+L=\theta*R
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Donde:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $L(inch)$
+\end_inset
+
+: Longitud de arco equivalente a desplazamiento vertical de la barra pulida.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\theta(rad):$
+\end_inset
+
+ ángulo barrido desde la pocisión de referencia.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $R(inch)$
+\end_inset
+
+: Longitud desde el eje de rotación hasta el punto de contacto de las riendas
+ con la 
+\begin_inset Quotes eld
+\end_inset
+
+cabeza de mula
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Para la posición horizontal 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "80col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.2cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space \qquad{}
+\end_inset
+
+#import math;
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space \qquad{}
+\end_inset
+
+#define pin_x 34;
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space \qquad{}
+\end_inset
+
+#define pin_z 39;
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+\begin_inset space \qquad{}
+\end_inset
+
+float position(pin_x, pin_z, R)
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+\begin_inset space \qquad{}
+\end_inset
+
+{
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+int ax = analogRead(pin_x); // Lectura analógica de la aceleración relacionado
+ al eje X
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+int az = analogRead(pin_z); // Lectura analógica de la aceleración relacionado
+ al eje Z
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+float theta = atan(ax/az); // Cálculo del ángulo de inclinación
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+float value = theta * R; // Cáculo del desplazamiento
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+return = value; // Lectura de deformación
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space \qquad{}
+\end_inset
+
+}
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.2cm
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Calibración
+\end_layout
+
+\begin_layout Standard
+Con esta calibración se actualiza los errores por offset y el ruido causado
+ por las vibraciones de la unidad de bombeo mecánico para hallar la inclinación
+ del cabezal.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Error de offset:
+\series default
+ Es error interno del dispositivo y tiene que restarse de las medidas para
+ hallar las aceleraciones reales, por consiguiente el ángulo de inclinación
+ real.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Error por vibraciones:
+\series default
+ Los acelerómetros al ser dispositivos muy sensibles registran también las
+ aceleraciones causadas por la vibración de la unidad de bombeo en reposo
+ y es necesario conocerlo para subsanarlo, se hace uso de herramientas estadisti
+cas como la varianza y se diseño un filtro pasa bajo para eliminar las aceleraci
+ones causadas por vibraciones.
+\end_layout
+
+\begin_layout Subsection
+Determinación de la variación de carga en el varillón
+\end_layout
+
+\begin_layout Standard
+Más que la determinación precisa y exacta de la carga soportada por el varillón
+ importa la variación de esta relacionada a la pocisión, en la sección 2
+ se desarrolló los diferentes circuitos para la determinación del voltaje
+ causado por la deformación del las galgas, en este caso usaremos la configuraci
+ón de 
+\series bold
+
+\begin_inset Quotes eld
+\end_inset
+
+puente de Wheatstone con dos galgas activas en configuración diferencial
+\series default
+ el modulo HX711 que es un amplificador con un convertidor analógico digital
+ de 24 bits permite la lectura en esta configuración, la comunicación entre
+ el ESP32 y el modulo HX711 se da mediante dos pines: Clock y Data.
+\end_layout
+
+\begin_layout Standard
+Mediante la librería HX711.h desarrollado para el módulo HX711 permite realizar
+ lecturas de la deformación de las galgas en la configuración mencionada.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "80col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.2cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+\begin_inset space \qquad{}
+\end_inset
+
+#include <Wire.h>
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space \qquad{}
+\end_inset
+
+#include 
+\begin_inset Quotes eld
+\end_inset
+
+HX711.h
+\begin_inset Quotes erd
+\end_inset
+
+ // importación de libreria
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+\begin_inset space \qquad{}
+\end_inset
+
+// Define data pin
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+\begin_inset space \qquad{}
+\end_inset
+
+const int DOUT_PIN = 22;
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+\begin_inset space \qquad{}
+\end_inset
+
+// Define clock pin
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+\begin_inset space \qquad{}
+\end_inset
+
+const int SCK_PIN = 23;
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+\begin_inset space \qquad{}
+\end_inset
+
+// Creación de de variable HX711
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+\begin_inset space \qquad{}
+\end_inset
+
+HX711 scale;
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+\begin_inset space \qquad{}
+\end_inset
+
+void setup()
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+\begin_inset space \qquad{}
+\end_inset
+
+{
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+//Inicialización de variable scale
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+scale.begin(DOUT_PIN, SCK_PIN);
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+\begin_inset space \qquad{}
+\end_inset
+
+}
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+\begin_inset space \qquad{}
+\end_inset
+
+void loop()
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+\begin_inset space \qquad{}
+\end_inset
+
+{
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+w = scale.read(); // Lectura de deformación
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space \qquad{}
+\end_inset
+
+}
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.2cm
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Algoritmo para la obtención de la carta dinamométrica de superficie y fondo.
+\end_layout
+
+\begin_layout Section
+Calibración de sensores
+\end_layout
+
+\begin_layout Section
+Pruebas en campo
+\end_layout
+
+\begin_layout Standard
+A continuación se muestra los resultados registrados en pozos productivos
+ de
+\end_layout
+
+\begin_layout Subsection
+Pruebas en pozo 344
+\end_layout
+
+\begin_layout Subsection
+Pruebs en pozo 234.
+\end_layout
+
+\begin_layout Chapter
+CONCLUSIONES
+\end_layout
+
+\begin_layout Enumerate
+El diseño de un sistema de telemetria podría representar una herramienta
+ importante, para la optimización de tiempos de cierre y/o apertura en las
+ pruebas, ya que según los objetivos planteados en las pruebas estos se
+ pueden cortar una vez alcanzado la zona de interés o extender cuando en
+ el tiempo programado aun no se llega a la zona de interés.
+ Otra forma de optimización es garantizar el funcionamiento de la herramienta,
+ ya que según la experiencia los registradores suelen sufrir averías causado
+ por los golpes bruscos o cuando la batería se descarga durante la prueba
+ o por también golpes bruscos, la última forma de optimización de pruebas
+ de pozo es cuando por imprevistos los registradores quedan atrapados en
+ el fondo del pozo, esto debido a la naturaleza del pozo o por algún incidente
+ durante la recuperación, en estos casos se contaría con un respaldo de
+ la información en superficie.
+\end_layout
+
+\begin_layout Enumerate
+De acuerdo al cuadro 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "cua: Fc para tuberia y casing"
+
+\end_inset
+
+ , para cubrir toda la variedad de conductores se necesitaría al menos dos
+ frecuencias de operación diferentes los cuales serían: 2.4 GHz para conductores
+ de 4 pulgadas ya se tubería o casing y 5.8 GHz para diámetros menores de
+ 4 pulgadas, la frecuencia de 5.8 GHz es una frecuencia muy utilizada para
+ la transmisión de audio y video los cuales abren la posibilidad de también
+ transmitir video desde el fondo del pozo.
+\end_layout
+
+\begin_layout Enumerate
+La ubicación del transmisor, ya sea en la parte superior o en parte inferior
+ de la sarta de herramientas no tiene mayor significado en conductores de
+ diámetro mayor, pero en conductores de menor diámetro afectan negativamente
+ la transmisión cuando estos son colocados en la parte inferior de la sarta
+ de herramientas esto se ve reflejado en el cuadro 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "cua: atenuacion vs profundidad"
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+Tal como es de esperarse la atenuación es muy alta cuando la frecuencia
+ de trabajo es menor que la frecuencia de corte, perdiéndose la comunicación
+ a profundidades pequeñas, del cuadro 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "cua: Fc para tuberia y casing"
+
+\end_inset
+
+ el transmisor de 2.4 GHz debería tener una atenuación muy grande para conductore
+s de diámetro de 2 7/8 pulgadas lo cual es comprobado en el cuadro 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "cua: atenuacion vs profundidad"
+
+\end_inset
+
+ donde a 200 pies llega al limite de transmisión cuando el transmisor esta
+ en la parte superior de la sarta y se pierde cuando el transmisor esta
+ ubicado en la parte inferior de la sarta.
+\end_layout
+
+\begin_layout Enumerate
+Del cuadro 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "cua: atenuacion fluidos"
+
+\end_inset
+
+.
+ El crudo, aire y gas no presenta un importante atenuación dentro del conductor,
+ debido a su naturaleza no conductiva, ocurre lo contrario cuando el fluido
+ contenido en el conductor es el agua ya que muestra una importante atenuación,
+ esto implica que no será posible la transmisión de datos cuando el transmisor
+ este sumergida en agua salada.
+ El agua de formación contiene una importante cantidad de sales disueltas
+ que le dan propiedades conductivas que hacen incrementar la atenuación
+ impidiendo de esta manera la propagación de las ondas electromagnéticas
+ a través de estas.
+\end_layout
+
+\begin_layout Enumerate
+El utilizar software de uso libre como Arduino IDE, Raspian, Qt 4.
+ reducen considerablemente el costo de implementación de sistemas de telemetría
+ en equipos 
+\emph on
+slick line
+\emph default
+ tradicionales, ya que estos son de uso libre, ademas de esto la implementación
+ no significaría incrementar considerablemente la logística de operación
+ del tradicional equipo de cable fino.
+\end_layout
+
+\begin_layout Chapter
+RECOMENDACIONES
+\end_layout
+
+\begin_layout Enumerate
+El desarrollo de esta forma de telemetria esta todavía en la etapa de prototipo
+ por lo que se recomienda utilizarlo en junto a los registradores tradicionales.
+\end_layout
+
+\begin_layout Enumerate
+Resulta imperioso continuar con las pruebas de transmisión para cubrir de
+ esta manera toda la variedad de diseños de producción para garantizar de
+ esta manera el funcionamiento correcto de estos sistemas de telemetria.
+\end_layout
+
+\begin_layout Enumerate
+Según lo mencionado en el ítem 2 del capítulo 4, para la transmisión de
+ datos en tuberías de diámetro reducido (menores a 4 pulgadas) es necesario
+ cambiar la frecuencia de operación a 5.8 GHz y de manera muy necesaria colocar
+ el transmisor en la parte superior de la sarta, para que esta última no
+ atenúe excesivamente la propagación de la onda electromagnética.
+\end_layout
+
+\begin_layout Enumerate
+Implementar progresivamente estos sistemas de telemetria en la empresas
+ de servicios para la ejecución de pruebas de pozos.
+ Esta información servirá a la empresa operadora para optimizar los tiempos
+ de cierre y/o apertura de acuerdo al objetivo de la prueba.
+\end_layout
+
+\begin_layout Enumerate
+Integrar datos como presión de fondo, presión en cabeza (tubería y casing),
+ caudal, etc.
+ registrándolos simultáneamente dotándole de mayor información al analista
+ para su mejor interpretación.
+\end_layout
+
+\begin_layout Chapter*
+Anexo 1: Configuración XBee
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{Anexo 1: Configuración XBee}
+\end_layout
+
+\end_inset
+
+ El software X-CTU se descargar gratuitamente en la página del fabricante
+ MaxStream.
+ Para instalarlo hay que descomprimir el archivo y ejecutarlo.
+ Cuenta con cuatro ventanas principales las cuales son:
+\end_layout
+
+\begin_layout Itemize
+PC Settings.
+ En esta parte se configura el formato de la trama serial para comunicarse
+ con el módulo.
+\end_layout
+
+\begin_layout Itemize
+Range Test.
+ Permite visualizar de una manera rápida y sencilla el alcance de transmisión
+ del módulo.
+ 
+\end_layout
+
+\begin_layout Itemize
+Terminal.
+ Desde aquí se envían los comandos AT hacia el módulo XBee o se envían y
+ reciben tramas de y hacia la UART del módulo.
+ 
+\end_layout
+
+\begin_layout Itemize
+Modem Configuration.
+ Es una interfaz visual desde la cual se configuran los parámetros del módulo
+ XBee, sin necesidad de conocer los comandos AT (de configuración tipo módem).
+ También desde aquí se hace la actualización del firmware.
+ 
+\end_layout
+
+\begin_layout Standard
+A continuación se muestra algunas de las características más importantes
+ del programa.
+ 
+\end_layout
+
+\begin_layout Subsection*
+Pc settings
+\end_layout
+
+\begin_layout Standard
+En esta ventana se muestran los puertos seriales que existen en la computadora,
+ en este caso el XBeeUSB tiene asignado el COM4.
+ Cuando llega una trama al módulo XBee éste la reconoce como datos o como
+ comandos para él.
+ Si son datos los radía, si son comandos los interpreta y se configura o
+ responde, pero esta información no es transmitida.
+ Una alternativa para enviar una trama de información de y hacia otros módulos
+ XBee se conoce como API (Application Programming Interface).
+ Esta opción también se activa en esta ventana.
+ Por omisión se tiene la opción de modo de comandos AT.
+ 
+\end_layout
+
+\begin_layout Standard
+El botón Test / Query al ser presionado lee el puerto COM seleccionado para
+ identificar el módulo que esta conectado a él..
+ Cuando la comunicación se realizó sin problemas se muestra una ventana
+ con los datos del tipo de módulo conectado, así como la versión de firmware
+ que tiene programado, de forma similar a lo que se ve en la figura:
+\end_layout
+
+\begin_layout Subsection*
+Range Test
+\end_layout
+
+\begin_layout Standard
+La opción Range Test sirve para verificar la calidad del enlace de RF, de
+ la señal recibida por el módulo XBeeUSB conectado a la PC.
+ En la figura siguiente se muestra su interfaz.
+ Para iniciar la prueba se pulsa el botón Start, si se habilita la casilla
+ del RSSI se tiene un indicador gráfico del nivel de la señal recibida.
+ Para realizar esta prueba se necesitan dos módulos, para que se comuniquen
+ entre ellos.
+ 
+\end_layout
+
+\begin_layout Subsection*
+Modem configuration
+\end_layout
+
+\begin_layout Standard
+La ventana de esta pestaña tiene una opción la cual permite realizar actualizaci
+ones del firmware, el cual debe corresponder con el tipo de configuración
+ deseado, por parte del módulo XBee.
+ Dependiendo de la versión del firmware se pueden o no emplear determinados
+ comandos AT.
+ El firmware se obtiene de la página de Internet de Digi, si ya se bajó
+ previamente, de un archivo.
+ El programa tiene ambas opciones, es decir directamente se puede conectar
+ al nodo del fabricante o abrir el archivo.
+ Par entrar al modo de descarga del firmware se debe pulsar el botón Download
+ new versions, el cual se muestra en la figura siguiente.
+ Para tomar el archivo desde la PC se presiona la opción file, con el botón
+ Web para bajarlo desde una conexión de Internet.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "bib:CD"
+literal "true"
+
+\end_inset
+
+ Cvitanović, P., Davidchack, R.
+ L.
+ and Siminos, E., On the state space geometry of the Kuramoto-Sivashinsky
+ flow in a periodic domain, 
+\emph on
+SIAM J.
+ Appl.
+ Dyn.
+ Syst.
+
+\emph default
+ 
+\series bold
+9
+\series default
+ (2010), 1–-33.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{BIBLIOGRAFÍA}
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "bib:Gauss"
+literal "true"
+
+\end_inset
+
+ Gauss, C.F., 
+\emph on
+Disquisitiones Arithmeticae
+\emph default
+, Fleischer, Leipzig, 1801.
+ 
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "bib:Gilbert pumping dynagraph"
+literal "true"
+
+\end_inset
+
+Gilbert, W.E., "An Oil Well Pumping Dynagraph," API Drilling and Production
+ Practice, 1936, pp.
+ 94-115
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "bib:Fagg Dynamometer Charts"
+literal "true"
+
+\end_inset
+
+Fagg, l.
+ W., "Dynamometer Charts and Well Weighing," Petroleum Transactions, AIME,
+ Vol.
+ 189, 1950, pp.
+ 165-174.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "bib:Bombeo mecanico"
+literal "true"
+
+\end_inset
+
+Artigas, M., Exploración y producción de petróleo: Bombeo Mecánico, 2010,
+ ISBN 978-987-98015-7-4.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "bib:DatasheetADXL335"
+literal "true"
+
+\end_inset
+
+ Analog Devices., Small, Low Pwer, 3-Axis 
+\begin_inset Formula $\pm$
+\end_inset
+
+3g Accelerometer., ADXL335, 2009-2010.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "bib:ArduinoCurso"
+literal "true"
+
+\end_inset
+
+Óscar Torrente Otero, ARDUINO Curso práctico de formación, Alfaomega, Primera
+ edición - 2013, 68
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "bib:TesisMWD"
+literal "true"
+
+\end_inset
+
+Daniel Jaramillo Rodas, Johan Esteban Delgado Pozo, Registro y monitoreo
+ de direccion e inclinacion durante la perforación (MWD), Universidad Nacional
+ de Colombia, 4 (2009), 25–28
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "bib:oilfieldSLICKLINE"
+literal "true"
+
+\end_inset
+
+Matthew Billingham, Vincente Chatelet, Stuart Murchie, Morrix Cox, William
+ B.
+ Paulsen, La Línea de acero marca un hito, Articulo publicado en 
+\emph on
+Oilfield
+\emph default
+ 
+\emph on
+Review, 
+\emph default
+Invierno de 2011/2012: 23, No 4.
+ Schulumberger.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "bib:DAPRAT"
+literal "true"
+
+\end_inset
+
+Giovanni Da Prat, Introducción al análisis y diseño de pruebas de presión.
+ 4, 11
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "bib:GSS"
+literal "true"
+
+\end_inset
+
+ Green, E.
+\begin_inset space \space{}
+\end_inset
+
+L., Schroll, S.
+ and Snashall, N., Group actions and coverings of Brauer graph algebras,
+ 
+\shape italic
+Glasgow Math.
+ J.
+
+\shape default
+ 
+\series bold
+56
+\series default
+ (2014), 439–464.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "bib:GUIASdeONDA"
+literal "true"
+
+\end_inset
+
+Rafael R.
+ Boix, Guias de onda.
+ 1–23
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "bib: Guias de onda tesis"
+literal "true"
+
+\end_inset
+
+ Jordi Bonastre, Guias de onda..
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "bib:BWSN"
+literal "true"
+
+\end_inset
+
+ Faludi, Robert., A practical guide to the zigbee mesh Networking Protocol
+\emph on
+, Building Wireless Sensor Networks.
+
+\emph default
+ 
+\series bold
+1
+\series default
+ (2010), 169–197.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "bib:IEEE"
+literal "true"
+
+\end_inset
+
+IEEE Computer Society, “IEEE Standard for Information technology – Telecommunica
+tions and information exchange between systems.
+ Local and metropolitan area networks.
+ Specific requirements.
+ Part 15.4: Wireless Medium Access Control (MAC) and Physical Layer (PHY)
+ Specifications for Low-Rate Wireless Personal Area Networks (WPANs)”, USA,
+ 08/09/2006, ISBN: 0-7381-4997-7.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "bib:Xbee User guide"
+literal "true"
+
+\end_inset
+
+Xbee / Xbe-PRO ZigBee RF Modules,XBEE2.
+ XBEEPRO2, PRO S2B, User Guide.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "bib:McCN"
+literal "true"
+
+\end_inset
+
+ McCullagh, P.
+ and Nelder, J.
+ A., 
+\shape italic
+Generalized linear models, Second edition
+\shape default
+ Monographs on Statistics and Applied Probability, Chapman & Hall, London,
+ 1989.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "bib:De la Vega"
+literal "true"
+
+\end_inset
+
+J.
+ E .
+ PAGE DE LA VEGA, Propagación de ondas guiadas, Universidad Politécnica
+ de Madrid, 1983
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "bib: Qian Dargie"
+literal "true"
+
+\end_inset
+
+Qian Dong, Waltenegus Dargie, 
+\emph on
+Evaluation of the Reliability of RSSI for Indoor Localization,
+\emph default
+ IEEE 2012.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "bib: Diseño y analisis de experimentos"
+literal "true"
+
+\end_inset
+
+ Montgomery, D.
+ (2005) Diseño y análisis de experimentos.
+ Segunda edición.
+ Editorial Limusa Wiley.
+ 
+\end_layout
+
+\end_body
+\end_document
